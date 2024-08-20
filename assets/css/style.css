@@ -1,7 +1,7 @@
 /* General style */
 
 body {
-    background-color: #5299D3;
+    background-color: #0B5563;
     font-family: "Figtree", sans-serif;
     color: white;
     text-align: center;
@@ -19,21 +19,6 @@ h1 {
 }
 
 .user-panel {
-    background: white;
-    box-sizing: border-box;
-    width: 40%;
-    height: 85vh;
-    max-height: 400px;
-    max-width: 300px;
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-
-}
-
-.computer-panel {
     background: #BEB8EB;
     box-sizing: border-box;
     width: 40%;
@@ -48,11 +33,27 @@ h1 {
 
 }
 
-button {
-    background: #FDE74C;
+.computer-panel {
+    background: #5299D3;
     box-sizing: border-box;
-    height: 100px;
-    width: 100px;
+    width: 40%;
+    height: 85vh;
+    max-height: 400px;
+    max-width: 300px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+button {
+    background: white;
+    box-sizing: border-box;
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
     border: none;
     display: flex;
     justify-content: center;
@@ -61,5 +62,5 @@ button {
 }
 
 .button-icon {
-    max-width: 75%;
+    max-width: 68%;
 }
