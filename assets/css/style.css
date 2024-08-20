@@ -19,7 +19,7 @@ h1 {
 }
 
 .user-panel {
-    background: #BEB8EB;
+    /* background: #BEB8EB; */
     box-sizing: border-box;
     width: 40%;
     height: 85vh;
@@ -34,7 +34,7 @@ h1 {
 }
 
 .computer-panel {
-    background: #5299D3;
+    /* background: #5299D3; */
     box-sizing: border-box;
     width: 40%;
     height: 85vh;
@@ -52,13 +52,20 @@ button {
     background: white;
     box-sizing: border-box;
     border-radius: 50%;
-    height: 110px;
-    width: 110px;
-    border: none;
+    height: 130px;
+    width: 130px;
+    border: 12px, solid;
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+.user-panel > button {
+    border-color: #BEB8EB;
+}
+
+.computer-panel > button {
+    border-color: #5299D3;
 }
 
 .button-icon {
