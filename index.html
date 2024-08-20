@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- font links here -->
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&family=Oxanium:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&family=Oxanium:wght@600&display=swap"
+        rel="stylesheet">
 
     <!-- favicon link here -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
     <!-- link to css style sheet here -->
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Rock Paper Scissors Game</title>
 </head>
+
 <body>
 
     <h1>Rock Paper Scissors</h1>
@@ -29,9 +36,19 @@
         </div>
 
         <div class="game-panel">
-            <div class="user-panel"></div>
-            <div class="computer-panel"></div>
-        </div>   
+            <div class="user-panel">
+                <button data-type="rock" class="rock-btn-user"></button>
+                <button class="paper"></button>
+                <button class="scissors"></button>
+            </div>
+            <div class="computer-panel">
+                <button class="rock">
+                    <img class="button-icon" src="assets/images/rock.png" alt="line art of a hand making the rock symbol">
+                </button>
+                <button class="paper"></button>
+                <button class="scissors"></button>
+            </div>
+        </div>
 
     </div>
 
@@ -44,9 +61,10 @@
         <p>Computer Score</p>
 
     </div>
-  
+
 
     <!-- link to js script -->
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>

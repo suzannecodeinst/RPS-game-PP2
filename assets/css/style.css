@@ -13,9 +13,9 @@ h1 {
 }
 
 .game-panel {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .user-panel {
@@ -26,7 +26,11 @@ h1 {
     max-height: 400px;
     max-width: 300px;
     margin: 1rem;
-     
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 .computer-panel {
@@ -37,9 +41,25 @@ h1 {
     max-height: 400px;
     max-width: 300px;
     margin: 1rem;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-.score-area {
-    
+button {
+    background: #FDE74C;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button-icon {
+    max-width: 75%;
 }
