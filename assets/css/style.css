@@ -23,7 +23,7 @@ h1 {
     box-sizing: border-box;
     width: 40%;
     height: 85vh;
-    max-height: 400px;
+    max-height: 500px;
     max-width: 300px;
     margin: 1rem;
     display: flex;
@@ -38,7 +38,7 @@ h1 {
     box-sizing: border-box;
     width: 40%;
     height: 85vh;
-    max-height: 400px;
+    max-height: 500px;
     max-width: 300px;
     margin: 1rem;
     display: flex;
@@ -70,4 +70,9 @@ button {
 
 .button-icon {
     max-width: 68%;
+}
+
+.score-area {
+    display: flex;
+    justify-content: space-around;
 }

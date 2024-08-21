@@ -32,11 +32,11 @@
 
     <div class="game-area">
 
-        <div class="game-length-selector">
-        </div>
+        <!-- <div class="game-length-selector"></div> -->
 
         <div class="game-panel">
             <div class="user-panel">
+                <h2>You</h2>
                 <button data-type="rock" class="rock-btn-user">
                     <img class="button-icon" src="assets/images/rock.png" alt="line art of a hand making the rock symbol">
                 </button>
@@ -46,8 +46,12 @@
                 <button data-type="scissors" class="scissors-btn-user">
                     <img class="button-icon" src="assets/images/scissors.png" alt="line art of a pair of scissors">
                 </button>
+                <div class="score-area">
+                    <p id="user-score">0</p>
+                </div>
             </div>
             <div class="computer-panel">
+                <h2>Cpu</h2>
                 <button data-type="rock" class="rock-btn-puter">
                     <img class="button-icon" src="assets/images/rock.png" alt="line art of a hand making the rock symbol">
                 </button>
@@ -57,19 +61,12 @@
                 <button data-type="scissors" class="scissors-btn-puter">
                     <img class="button-icon" src="assets/images/scissors.png" alt="line art of a pair of scissors">
                 </button>
+                <div class="score-area">
+                    <p id="puter-score">0</p>
+                </div>
                 
             </div>
         </div>
-
-    </div>
-
-    <div class="score-area">
-
-        <!-- number of the game played, if chosen 3 games, or 5 etc-->
-        <div class="game-number"></div>
-
-        <p>User Score</p>
-        <p>Computer Score</p>
 
     </div>
 
