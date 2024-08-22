@@ -69,10 +69,17 @@ h2 {
     align-items: center;
 }
 
+.btn-user:hover {
+    border: 15px;
+}
+
+.btn-choice:focus {
+    background-color: #FDE321;
+}
+
 .reset-btn {
     background-color: #0B5563;
     color: white;
-    box-styling: border-box;
     border: 2px solid white;
     border-radius: 5%;
     padding: 0.5rem;

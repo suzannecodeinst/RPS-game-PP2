@@ -37,14 +37,14 @@
         <div class="game-panel">
             <div class="user-panel">
                 <h2>You</h2>
-                <button data-type="rock" class="rock-btn-user">
-                    <img class="button-icon" src="assets/images/rock.png" alt="line art of a hand making the rock symbol">
+                <button aria-label="rock" data-choice="0" class="btn-choice btn-rock btn-user">
+                    <img class="button-icon" src="assets/images/rock.png" alt="rock">
                 </button>
-                <button data-type="paper" class="paper-btn-user">
-                    <img class="button-icon" src="assets/images/paper.png" alt="line art of a piece of paper">
+                <button aria-label="paper" data-choice="1" class="btn-choice btn-paper btn-user">
+                    <img class="button-icon" src="assets/images/paper.png" alt="paper">
                 </button>
-                <button data-type="scissors" class="scissors-btn-user">
-                    <img class="button-icon" src="assets/images/scissors.png" alt="line art of a pair of scissors">
+                <button aria-label="scissors" data-choice="2" class="btn-choice btn-scissors btn-user">
+                    <img class="button-icon" src="assets/images/scissors.png" alt="scissors">
                 </button>
                 <div class="score-area">
                     <h2 id="user-score">0</h2>
@@ -52,14 +52,14 @@
             </div>
             <div class="computer-panel">
                 <h2>Computer</h2>
-                <button data-type="rock" class="rock-btn-puter">
-                    <img class="button-icon" src="assets/images/rock.png" alt="line art of a hand making the rock symbol">
+                <button aria-label="rock" data-choice="0" class="btn-choice btn-rock btn-puter">
+                    <img class="button-icon" src="assets/images/rock.png" alt="rock">
                 </button>
-                <button data-type="paper" class="paper-btn-puter">
-                    <img class="button-icon" src="assets/images/paper.png" alt="line art of a piece of paper">
+                <button aria-label="paper" data-choice="1" class="btn-choice btn-paper btn-puter">
+                    <img class="button-icon" src="assets/images/paper.png" alt="paper">
                 </button>
-                <button data-type="scissors" class="scissors-btn-puter">
-                    <img class="button-icon" src="assets/images/scissors.png" alt="line art of a pair of scissors">
+                <button aria-label="scissors" data-choice="2" class="btn-choice btn-scissors btn-puter">
+                    <img class="button-icon" src="assets/images/scissors.png" alt="scissors">
                 </button>
                 <div class="score-area">
                     <h2 id="puter-score">0</h2>
@@ -70,12 +70,12 @@
 
     </div>
 
-    <div>
+    <div id="reset-area">
         <button data-type="reset-game" class="reset-btn">Reset Game</button>
     </div>
 
     <div class="rules">
-        <p>Scissors beat paper. Paper beats Rock. Rock beats scissors.</p>
+        <p>Rock beats scissors. Paper beats Rock. Scissors beat paper.</p>
     </div>
 
 
