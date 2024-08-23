@@ -1,14 +1,36 @@
-// Wait for the DOM to finish loading before running the game
-// Get the button elements and add event listeners to them
 
 
-const userScore = document.getElementById("user-score");
-const puterScore = document.getElementById("puter-score");
 const choices = ["rock", "paper", "scissors"];
+const userChoiceDisplay = document.getElementById("user-choice");
+const puterChoiceDisplay = document.getElementById("puter-choice");
+const result = document.getElementById("result");
 
 
+function playGame(playerChoice){
+    const puterChoice = choices[Math.floor(Math.random() * 3)];
+    let result = "";
 
-document.addEventListener("DOMContentLoaded", function() {
+    if(playerChoice === puterChoice){
+        result = "Great minds think alike!"
+    } else if (puterChoice === 'rock' && playerChoice === "paper") {
+      result = 'Yay you win!'
+    } else if (puterChoice === 'rock' && playerChoice === "scissors") {
+      result = 'Oops you lose!'
+    } else if (puterChoice === 'paper' && playerChoice === "scissors") {
+      result = "You're a winner!"
+    } else if (puterChoice === 'paper' && playerChoice === "rock") {
+      result = 'Bad luck, you lose!'
+    } else if (puterChoice === 'scissors' && playerChoice === "rock") {
+      result = 'Great win!'
+    } else (computerChoice === 'scissors' && userChoice === "paper") {
+      result = 'Noooo, you lose!'
+    }
+    resultDisplay.innerHTML = result
+  }
+}
+
+
+/*document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByClassName("btn-user");
 
     for (let button of buttons) {
@@ -17,12 +39,12 @@ document.addEventListener("DOMContentLoaded", function() {
             playGame(userChoice);
             alert("user clicked")
 
-            
-
 
         });
     }
-})
+}) */
+
+
 
 
 
