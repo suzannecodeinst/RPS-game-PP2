@@ -7,3 +7,7 @@ Rock Paper Scissors is a familiar simple game played traditionally with hand ges
 ## Reference
 Referred to this article https://www.shecodes.io/athena/124459-why-are-we-using-let-and-not-const#:~:text=We%20use%20let%20when%20we,that%20should%20not%20be%20reassigned. on using const and let 
 
+Referred to Love Maths for setting up event listeners and checking the work using an alert.
+
+Referred to this Stack Overflow searches for reminders on using multiple classes with a HTML container.
+

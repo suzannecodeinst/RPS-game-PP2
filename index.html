@@ -27,52 +27,51 @@
 
     <!-- may move instructions to bottom of screen/ or start with this as full page to then click thru to game-->
     <div class="instructions">
-        <p><b>Instructions:</b><br> Select an icon from the left and the Computer will choose at the same time</p>
+        <p><b>Instructions:</b><br> Select an icon and the Computer will choose at the same time</p>
     </div>
 
     <div class="game-area">
 
-        <!-- <div class="game-length-selector"></div> -->
+        <div class="user-panel">
+            <h3>Your<br>Choice: </h2>
+
+        </div>
 
         <div class="game-panel">
-            <div class="user-panel">
-                <h2>You</h2>
+            <div class="btn-choice">
                 <button aria-label="rock" data-type="rock" data-choice="0" class="btn-choice btn-rock btn-user">
                     <img class="button-icon" src="assets/images/rock.png" alt="rock">
                 </button>
                 <button aria-label="paper" data-type="paper" data-choice="1" class="btn-choice btn-paper btn-user">
                     <img class="button-icon" src="assets/images/paper.png" alt="paper">
                 </button>
-                <button aria-label="scissors" data-type="scissors" data-choice="2" class="btn-choice btn-scissors btn-user">
+                <button aria-label="scissors" data-type="scissors" data-choice="2"
+                    class="btn-choice btn-scissors btn-user">
                     <img class="button-icon" src="assets/images/scissors.png" alt="scissors">
                 </button>
-                <div class="score-area">
-                    <h2 id="user-score">0</h2>
-                </div>
             </div>
-            <div class="computer-panel">
-                <h2>Computer</h2>
-                <button aria-label="rock" data-choice="0" class="btn-choice btn-rock btn-puter">
-                    <img class="button-icon" src="assets/images/rock.png" alt="rock">
-                </button>
-                <button aria-label="paper" data-choice="1" class="btn-choice btn-paper btn-puter">
-                    <img class="button-icon" src="assets/images/paper.png" alt="paper">
-                </button>
-                <button aria-label="scissors" data-choice="2" class="btn-choice btn-scissors btn-puter">
-                    <img class="button-icon" src="assets/images/scissors.png" alt="scissors">
-                </button>
-                <div class="score-area">
-                    <h2 id="puter-score">0</h2>
-                </div>
-                
-            </div>
+        </div>
+
+        <div class="puter-panel">
+            <h3>Cpu<br>Choice: </h2>
+
         </div>
 
     </div>
 
+    <div class="result-area">
+        <h2 class="result">You win!</h2>
+    </div>
+
+   <!-- <div class="score-area">
+        <h2 id="user-score">0</h2>
+        <h2 id="puter-score">0</h2>
+    
+    </div>
+
     <div id="reset-area">
         <button data-type="reset-game" class="reset-btn">Reset Game</button>
-    </div>
+    </div> --> 
 
     <div class="rules">
         <p>Rock beats scissors. Paper beats Rock. Scissors beat paper.</p>
