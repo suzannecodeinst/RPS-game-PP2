@@ -3,7 +3,7 @@
 const choices = ["rock", "paper", "scissors"];
 const userChoiceDisplay = document.getElementById("user-choice");
 const puterChoiceDisplay = document.getElementById("puter-choice");
-const result = document.getElementById("result");
+const resultDisplay = document.getElementById("result");
 
 
 function playGame(playerChoice){
@@ -11,23 +11,26 @@ function playGame(playerChoice){
     let result = "";
 
     if(playerChoice === puterChoice){
-        result = "Great minds think alike!"
+        result = "Great minds think alike!";
     } else if (puterChoice === 'rock' && playerChoice === "paper") {
-      result = 'Yay you win!'
+      result = 'Yay you win!';
     } else if (puterChoice === 'rock' && playerChoice === "scissors") {
-      result = 'Oops you lose!'
+      result = 'Oops you lose!';
     } else if (puterChoice === 'paper' && playerChoice === "scissors") {
-      result = "You're a winner!"
+      result = "You're a winner!";
     } else if (puterChoice === 'paper' && playerChoice === "rock") {
-      result = 'Bad luck, you lose!'
+      result = 'Bad luck, you lose!';
     } else if (puterChoice === 'scissors' && playerChoice === "rock") {
-      result = 'Great win!'
+      result = 'Great win!';
     } else (computerChoice === 'scissors' && userChoice === "paper") {
-      result = 'Noooo, you lose!'
+      result = 'Noooo, you lose!';
     }
-    resultDisplay.innerHTML = result
   }
-}
+
+  userChoiceDisplay.textContent = `Your Choice: ${playerChoice}`;
+  puterChoiceDisplay.textContent = `Cpu Choice: ${puterChoice}`;
+  resultDisplay.textContent = result;
+
 
 
 /*document.addEventListener("DOMContentLoaded", function() {
