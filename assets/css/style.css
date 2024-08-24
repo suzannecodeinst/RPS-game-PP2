@@ -22,17 +22,16 @@ h2 {
 
 .game-area {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    margin-bottom: 2rem;
+   
 }
 
 
 .game-panel {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 
@@ -40,10 +39,10 @@ h2 {
     background: white;
     box-sizing: border-box;
     border-radius: 50%;
-    height: 130px;
-    width: 130px;
+    height: 120px;
+    width: 120px;
     border: 12px, solid, #BEB8EB;
-    margin-bottom: 10px;
+    margin: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,17 +57,21 @@ h2 {
 }
 
 .user-panel {
-    /* background: #BEB8EB; */
     box-sizing: border-box;
-    margin: 0rem 2rem 1rem 1rem;
 
 }
 
-.puter-panel {
-    /* background: #5299D3; */
-    box-sizing: border-box;
-    margin: 0rem 1rem 1rem 2rem;
+#user-choice {
+    color:#FDE321;
+}
 
+.puter-panel {
+    box-sizing: border-box;
+
+}
+
+#puter-choice {
+    color: #5299D3;
 }
 
 /*.reset-btn {

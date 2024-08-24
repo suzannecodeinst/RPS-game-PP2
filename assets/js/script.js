@@ -54,7 +54,7 @@ function playGame(playerChoice) {
     if (playerChoice == "0") {
       result.innerText = "You win!"
     } else {
-      result.innerText = "Noooo, you lose!"
+      result.innerText = "You lose!"
     }
   }
 
