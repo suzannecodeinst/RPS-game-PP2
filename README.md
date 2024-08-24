@@ -1,6 +1,13 @@
 # Rock Paper Scissors Game
 
-Rock Paper Scissors is a familiar simple game played traditionally with hand gestures. This game aims to re-create the experience so the user can play solo on their phone or device. The game is built mobile first as it aims to be handily available to users wherever they are and when they want a short and simple game distraction.
+![Screenshot of Rock Paper Scissors page on a range of screen sizes to show responsiveness](/assets/images/readmeimg/3-devices-white.png)
+
+Rock Paper Scissors is a simple game played traditionally with hand gestures and widely known. This game aims to re-create the experience so the user can play solo on their phone or device. The game is built mobile first as it aims to be handily available to users wherever they are and when they want a short and simple game distraction.
+
+
+## Features
+
+
 
 
 
