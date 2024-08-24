@@ -6,7 +6,7 @@ const userChoiceDisplay = document.getElementById('user-choice');
 const choices = ["rock", "paper", "scissors"];
 
 
-/*  play game function records data choice value of selected button
+/*  play game function records data choice value of selected button and
 prints array value to user choice*/
 
 
@@ -15,7 +15,7 @@ for (let button of buttons) {
     let playerChoice = this.getAttribute("data-choice");
     userChoiceDisplay.innerHTML = `${choices[playerChoice]}`;
     playGame(playerChoice);
-   
+
   });
 }
 
@@ -44,13 +44,13 @@ function playGame(playerChoice) {
     } else {
       result.innerText = "Yay you win!";
     }
-  }  else if (puterChoice == "1") {
+  } else if (puterChoice == "1") {
     if (playerChoice == "0") {
       result.innerText = "Agh, you lose!";
     } else {
       result.innerText = "You win!";
     }
-  }  else if (puterChoice == "2") {
+  } else if (puterChoice == "2") {
     if (playerChoice == "0") {
       result.innerText = "You win!"
     } else {
@@ -58,11 +58,4 @@ function playGame(playerChoice) {
     }
   }
 
-
-  
 }
-
-
-
-
-
