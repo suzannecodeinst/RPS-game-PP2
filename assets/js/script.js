@@ -5,7 +5,7 @@ const puterChoiceDisplay = document.getElementById('puter-choice');
 const userChoiceDisplay = document.getElementById('user-choice');
 const resultDisplay = document.getElementById('result');
 const choices = ["rock", "paper", "scissors"];
-let playerChoice;
+
 
 
 for (let button of buttons) {
@@ -22,10 +22,10 @@ prints array value to user choice
 computer randomly selects a value between 0 and 3
 and selects a corresponding data choice based on array value, prints to computer choice
 
-compares the data choices and declares a winner
+compares the data choices and declares a winner */
 
 
- /* function playGame(playerChoice) {
+  function playGame(playerChoice) {
 
    
     
