@@ -39,12 +39,24 @@ function playGame(playerChoice) {
     result.innerText = "Draw!";
 
   } else if (puterChoice == "0") {
-    if (playerChoice == "3") {
+    if (playerChoice == "2") {
       result.innerText = "Oops you lose!";
     } else {
       result.innerText = "Yay you win!";
     }
-  }  
+  }  else if (puterChoice == "1") {
+    if (playerChoice == "0") {
+      result.innerText = "Agh, you lose!";
+    } else {
+      result.innerText = "You win!";
+    }
+  }  else if (puterChoice == "2") {
+    if (playerChoice == "0") {
+      result.innerText = "You win!"
+    } else {
+      result.innerText = "Noooo, you lose!"
+    }
+  }
 
 
   
