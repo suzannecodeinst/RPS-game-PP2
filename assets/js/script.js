@@ -1,68 +1,41 @@
+/* constants for the DOM */
 
-
+const buttons = document.getElementsByClassName("btn-choice")
+const puterChoiceDisplay = document.getElementById('puter-choice');
+const userChoiceDisplay = document.getElementById('user-choice');
+const resultDisplay = document.getElementById('result');
 const choices = ["rock", "paper", "scissors"];
-const userChoiceDisplay = document.getElementById("user-choice");
-const puterChoiceDisplay = document.getElementById("puter-choice");
-const resultDisplay = document.getElementById("result");
+let playerChoice;
 
 
-function playGame(playerChoice){
-    const puterChoice = choices[Math.floor(Math.random() * 3)];
-    let result = "";
+for (let button of buttons) {
+    button.addEventListener("click", function () {
+    let playerChoice = this.getAttribute("data-choice");
+    userChoiceDisplay.innerHTML = `${choices[playerChoice]}`;
+    playGame(playerChoice);
+  });
+}
 
-    if(playerChoice === puterChoice){
-        result = "Great minds think alike!";
-    } else if (puterChoice === 'rock' && playerChoice === "paper") {
-      result = 'Yay you win!';
-    } else if (puterChoice === 'rock' && playerChoice === "scissors") {
-      result = 'Oops you lose!';
-    } else if (puterChoice === 'paper' && playerChoice === "scissors") {
-      result = "You're a winner!";
-    } else if (puterChoice === 'paper' && playerChoice === "rock") {
-      result = 'Bad luck, you lose!';
-    } else if (puterChoice === 'scissors' && playerChoice === "rock") {
-      result = 'Great win!';
-    } else (computerChoice === 'scissors' && userChoice === "paper") {
-      result = 'Noooo, you lose!';
-    }
+/* function records data choice value of selected button
+prints array value to user choice
+
+computer randomly selects a value between 0 and 3
+and selects a corresponding data choice based on array value, prints to computer choice
+
+compares the data choices and declares a winner
+
+
+ /* function playGame(playerChoice) {
+
+   
+    
+    let puterChoice = Math.floor(Math.random() * 3);
+
+    puterChoiceDisplay.innerHTML = `${choices[puterChoice]}`;
+
+    let resultDisplay = checkWinner(choices[puterChoice], choices[playerChoice]);
+
+  
   }
 
-  userChoiceDisplay.textContent = `Your Choice: ${playerChoice}`;
-  puterChoiceDisplay.textContent = `Cpu Choice: ${puterChoice}`;
-  resultDisplay.textContent = result;
-
-
-
-/*document.addEventListener("DOMContentLoaded", function() {
-    let buttons = document.getElementsByClassName("btn-user");
-
-    for (let button of buttons) {
-        button.addEventListener("click", function() {
-            let userChoices = this.getAttribute("data-choice");
-            playGame(userChoice);
-            alert("user clicked")
-
-
-        });
-    }
-}) */
-
-
-
-
-
-
-// Add initial functions - reference Love Maths video- first setup of js
-
-function playGame(userChoice) {
-     let puterChoice = Math.floor(Math.random() * 3);
-
-}
-
-function checkAnswer() {
-
-}
-
-function incrementScore() {
-
-}
+ 

@@ -33,34 +33,34 @@
     <div class="game-area">
 
         <div class="user-panel">
-            <h3 id="user-choice">Your<br>Choice: </h2>
+            <h3>Your<br>Choice: <span id="user-choice"></span> </h3>
 
         </div>
 
         <div class="game-panel">
             <div class="btn-choice">
-                <button aria-label="rock" data-type="rock" data-choice="0" class="btn-choice btn-rock btn-user">
+                <button id="rock" aria-label="rock" data-choice="0" data-type="rock" class="btn-choice rock">
                     <img class="button-icon" src="assets/images/rock.png" alt="rock">
                 </button>
-                <button aria-label="paper" data-type="paper" data-choice="1" class="btn-choice btn-paper btn-user">
+                <button id="paper" aria-label="paper" data-choice="1" class="btn-choice paper ">
                     <img class="button-icon" src="assets/images/paper.png" alt="paper">
                 </button>
-                <button aria-label="scissors" data-type="scissors" data-choice="2"
-                    class="btn-choice btn-scissors btn-user">
+                <button id="scissors" aria-label="scissors"  data-choice="2"
+                    class="btn-choice scissors ">
                     <img class="button-icon" src="assets/images/scissors.png" alt="scissors">
                 </button>
             </div>
         </div>
 
         <div class="puter-panel">
-            <h3 id="puter-choice">Cpu<br>Choice: </h2>
+            <h3>Cpu<br>Choice: <span id="puter-choice"></span> </h3>
 
         </div>
 
     </div>
 
     <div class="result-area">
-        <h2 id="result">You win!</h2>
+        <h2>Result: <span id="result"></span></h2>
     </div>
 
    <!-- <div class="score-area">
