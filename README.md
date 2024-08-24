@@ -11,3 +11,6 @@ Referred to Love Maths for setting up event listeners and checking the work usin
 
 Referred to this Stack Overflow searches for reminders on using multiple classes with a HTML container.
 
+## Debugging
+I struggled to get the game to show the user choice of button, yet it would show the computer choice. I kept re-checking the js, and went back to the beginnignwith a pseudo-code list. The problem lay in the html, I had an extra div that conatained the buttons in the game-panel div, and it shared the class name of the buttons, once this was removed it was ok.
+
