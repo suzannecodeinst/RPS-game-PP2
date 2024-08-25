@@ -69,9 +69,9 @@ When I tested the deployed game in a Firefox browser the border thickness of the
 ### Validator Testing
 
 #### HTML
-I tested the HTML with [W3](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsuzannecodeinst.github.io%2FRPS-game-PP2%2F) validator. This highlighted that a H2 element where I show the results was missing a heading. This is deliberate as the content is fille donly when game starts play.
+I tested the HTML with [W3](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsuzannecodeinst.github.io%2FRPS-game-PP2%2F) validator. This highlighted that a H2 element where I show the results was missing a heading. This is deliberate as the content is filled only when game starts play.
 
-### CSS
+#### CSS
 I tested the CSS with the [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsuzannecodeinst.github.io%2FRPS-game-PP2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validator and all was good.
 
 
