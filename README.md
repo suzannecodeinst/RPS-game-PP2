@@ -66,12 +66,6 @@ I checked accessibility with Lighthouse in Dev tools and checked its responsiven
 ![Screengrab of Lighthouse test](/assets/images/readmeimg/Screenshot%202024-08-24%20at%2021.00.46.png)
 
 
-
-
-
-
-
-
 ## Reference
 Referred to this [article](https://www.shecodes.io/athena/124459-why-are-we-using-let-and-not-const#:~:text=We%20use%20let%20when%20we,that%20should%20not%20be%20reassigned) on using const and let.
 
@@ -90,7 +84,7 @@ Referred to the Code Inst Project Scope [ReadMe Example](https://learn.codeinsti
 ## Debugging
 Originally I wanted there to be two columns of the buttons, one for the user to select from and one for the computer to show their choice, I was struggling with the computer choice selection, so simplified the game play UI to just showing buttons for the User. This would be an additional feature that I would like to solve though.
 
-I struggled to get the game to show the user choice, yet it would show the computer choice. I kept re-checking the js, and went back to the beginning with a pseudo-code list, as I was unsure if I had the order of events and functions correct and understood. The problem actually lay in the html, I had an extra div that conatained the buttons in the game-panel div, and it shared the class name of the buttons, once this was removed it was ok.
+I struggled to get the game to show the user choice, yet it would show the computer choice. I kept re-checking the js, and went back to the beginning with a pseudo-code list, as I was unsure if I had the order of events and functions correct and understood. The problem actually lay in the html, I had an extra div that contained the buttons in the game-panel div, and it shared the class name of the buttons, once this was removed it was ok.
 
 I was using the === operator for some of the checking the answer function, I needed to use the == operator. I think retrospectively my html uses too many classes and data-choice, data-type options, I could simplify this too, and it would help the js in future.
 
