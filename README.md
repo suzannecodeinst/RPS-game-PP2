@@ -1,6 +1,6 @@
 # Rock Paper Scissors Game
 
-![Screenshot of Rock Paper Scissors page on a range of screen sizes to show responsiveness](/assets/images/readmeimg/3-devices-white.png)
+![Screenshot of Rock Paper Scissors page on a range of screen sizes to show responsiveness](/assets/images/readmeimg/RPS-screens.webp)
 
 Rock Paper Scissors is a simple game played traditionally with hand gestures and widely known. This game aims to re-create the experience so the user can play solo on their phone or device. The game is built mobile first as it aims to be handily available to users wherever they are and when they want a short and simple game distraction.
 
@@ -21,40 +21,30 @@ The font for the rest of the content is Figtree. All fonts are from [GoogleFonts
 ![Color palette image from Coolers.co](/assets/images/readmeimg/rps-colors.png)
 
 I selected a colour palette using [Coolers.co](https://coolors.co/beb8eb-fde321-5299d3-0b5563). Midnight Green as my base colour with white type on top is a strong contrast, and three other colours would serve to help highlight specific areas, but essentially I wanted a strong contrast between the font and the background.
-
-### Instructions 
-
-A simple set of instructions remains at the top of the page directly under the header/H1 title.
+I changed the Celestial Blue to aqua as it stands out better.
 
 ### Game Area
 
-![Screengrab of the game area before play](/assets/images/readmeimg/RPS-gamearea001.png)
+![Screengrab of the game area before play](/assets/images/readmeimg/RPS-start.png)
+
+A simple set of instructions remains at the top of the page directly under the header/H1 title.
 
 The Game area consists of a set of buttons with an icon for each; Rock, Paper, Scissors. I researched various icon types on Google and checked the free ones available, I liked the simple graphic icons best and decided to draw my own in illustrator.
 
-Below the buttons are two areas that will confirm the user choice and the choice of the computer.
+Below the buttons are areas to be shown your choice and the computers choice, and a corresponding score area.
 
-The user selects a button, their selection colours a button yellow, and their choice is written in yellow below "Your Choice:" At the same time the Computer selects a random choice and their option is written in blue below "Cpu Choice:".
+The user selects a button, their selection colours a button yellow, and their choice is written in yellow below "Your Choice:" At the same time the Computer selects a random choice and their option is written in blue below "Cpu Choice:". The scores will increment based on whomever has won the round. If there is a draw, no score will increase.
 
-![Screengrab of the game area once a selection has been made](/assets/images/readmeimg/RPS-gamearea002.png)
-
-
-### Result area
-
-![Screengrab of the result area with the rules below](/assets/images/readmeimg/RPS-results.png)
-
-The results area shows you who has won the game, with options for a draw, winning or losing. Immeadiately below the results is a reminder of the rules and which element beats which.
+![Screengrab of the game area once a selection has been made](/assets/images/readmeimg/RPS-played.png)
 
 
 ## Features left to implement
 
-Originally I wanted to have two rows of icons, one to show the user selection and one to show the computer. I would still like to implement this as I think it would make the gameplay clearer, I find the Cpu Choice as it is now, not as easy to 'read'.
+Originally I wanted to have two rows of icons, one to show the user selection and one to show the computer. I would still like to implement this as this would also allow for a future feature of making the game play available to engage with another user, so you could play against a friend - each on their own device.
 
-If there were two rows of buttons this would also allow for a future feature of making the game play available to engage with another user, so you could play against a friend - each on thier own device.
+I would like to add the option to choose to do a best of 3, 5, or more multiple matches, in rounds of odd numbers.
 
-I would like to add the option for a scoring system where you could also choose to do a best of 3, 5, or multiple matches.
-
-A reset game button would also be useful in light of the above.
+A reset game button would also be useful, as currently to reset you need to refresh the browser. 
 
 
 ## Testing
