@@ -75,7 +75,7 @@ Referred to this [Mdn web docs article](https://developer.mozilla.org/en-US/docs
 
 Referred to this [article](https://www.w3schools.com/js/js_if_else.asp) as a reminder for if else statements.
 
-Referred to these articles, to check and compare code for working with buttons and their values;<br>
+Referred to this article, to check and compare code for working with buttons and their values;<br>
 [TutorialsPoint](https://www.tutorialspoint.com/how-to-find-the-value-of-a-button-with-javascript#:~:text=of%20value%20attribute.-,Step%201%20%E2%88%92%20In%20this%20step%2C%20we%20will%20define%20a%20button,attribute%20associated%20with%20particular%20value.&text=property%20of%20JavaScript_-,Step%203%20%E2%88%92%20In%20the%20third%20step%2C%20we%20will%20display%20the,code%20is%20working%20or%20not.)
 
 Referred to the Code Inst Project Scope [ReadMe Example](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/) as a reminder for the Readme structure, and in particular I followed the steps for testing.

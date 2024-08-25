@@ -58,8 +58,21 @@ h2 {
     background-color: #FDE321;
 }
 
+.choices-and-scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.choices-panels {
+    display: flex;
+    justify-content: space-around;
+}
+
 .user-panel {
     box-sizing: border-box;
+    padding-right: 3rem;
 
 }
 
@@ -73,7 +86,7 @@ h2 {
 }
 
 #puter-choice {
-    color: #5299D3;
+    color: aqua;
 }
 
 
@@ -99,10 +112,26 @@ h2 {
     flex-direction: row;
 }
 
-/*.score-area {
+.result-area {
+    margin-bottom: 1rem;
+}
+
+.score-area {
     display: flex;
     justify-content: space-around;
-}*/
+}
+
+.your-score {
+    padding-right: 2rem;
+}
+
+#user-score {
+    color: #FDE321;
+}
+
+#puter-score {
+    color: aqua;
+}
 
 .rules {
     padding: 0rem 3rem;

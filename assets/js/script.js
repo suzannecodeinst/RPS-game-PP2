@@ -42,21 +42,42 @@ function playGame(playerChoice) {
   } else if (puterChoice == "0") {
     if (playerChoice == "2") {
       result.innerText = "Oops you lose!";
+      incrementPuterScore()
     } else {
       result.innerText = "Yay you win!";
+      incrementUserScore()
     }
   } else if (puterChoice == "1") {
     if (playerChoice == "0") {
       result.innerText = "Agh, you lose!";
+      incrementPuterScore()
     } else {
       result.innerText = "You win!";
+      incrementUserScore()
     }
   } else if (puterChoice == "2") {
     if (playerChoice == "0") {
       result.innerText = "You win!"
+      incrementUserScore()
     } else {
       result.innerText = "You lose!"
+      incrementPuterScore()
     }
   }
 
+}
+
+/* Increments User score  - gets current score from DOM*/
+
+function incrementUserScore() {
+  let oldScore = parseInt(document.getElementById("user-score").innerText);
+  document.getElementById("user-score").innerText = ++oldScore;
+}
+
+
+/* Increments Computer score - gets current score from DOM*/
+
+function incrementPuterScore() {
+  let oldPuterScore = parseInt(document.getElementById("puter-score").innerText);
+  document.getElementById("puter-score").innerText = ++oldPuterScore;
 }
