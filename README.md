@@ -43,7 +43,7 @@ The user selects a button, their selection colours a button yellow, and their ch
 
 ![Screengrab of the result area with the rules below](/assets/images/readmeimg/RPS-results.png)
 
-The results area shows you who has won the game, with options for a draw, winning or losing. Immeadiately below the results are is a reminder of the rules and which element beats which.
+The results area shows you who has won the game, with options for a draw, winning or losing. Immeadiately below the results is a reminder of the rules and which element beats which.
 
 
 ## Features left to implement
@@ -63,9 +63,19 @@ A reset game button would also be useful in light of the above.
 
 
 ## Reference
-Referred to this article https://www.shecodes.io/athena/124459-why-are-we-using-let-and-not-const#:~:text=We%20use%20let%20when%20we,that%20should%20not%20be%20reassigned. on using const and let 
+Referred to this [article](https://www.shecodes.io/athena/124459-why-are-we-using-let-and-not-const#:~:text=We%20use%20let%20when%20we,that%20should%20not%20be%20reassigned) on using const and let.
 
 Referred to Love Maths for setting up event listeners and using alert messages in js to check the code is working.
+
+Referred to this [Mdn web docs article](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality) to check the use of the == and === operators.
+
+Referred to this [article](https://www.w3schools.com/js/js_if_else.asp) as a reminder for if else statements.
+
+Referred to these articles, to check and compare code for working with buttons and their values;<br>
+[TutorialsPoint](https://www.tutorialspoint.com/how-to-find-the-value-of-a-button-with-javascript#:~:text=of%20value%20attribute.-,Step%201%20%E2%88%92%20In%20this%20step%2C%20we%20will%20define%20a%20button,attribute%20associated%20with%20particular%20value.&text=property%20of%20JavaScript_-,Step%203%20%E2%88%92%20In%20the%20third%20step%2C%20we%20will%20display%20the,code%20is%20working%20or%20not.)
+
+
+
 
 
 

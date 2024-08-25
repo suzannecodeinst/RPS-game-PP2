@@ -7,7 +7,7 @@ const choices = ["rock", "paper", "scissors"];
 
 
 /*  play game function records data choice value of selected button and
-prints array value to user choice*/
+prints array data choice (rock, paper, scissors) to user choice*/
 
 
 for (let button of buttons) {
@@ -30,6 +30,7 @@ function playGame(playerChoice) {
   let puterChoice = Math.floor(Math.random() * 3);
 
   puterChoiceDisplay.innerHTML = `${choices[puterChoice]}`;
+  
 
   /*compares the data choices and declares a winner */
 
