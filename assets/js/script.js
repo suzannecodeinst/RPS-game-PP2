@@ -81,3 +81,6 @@ function incrementPuterScore() {
   let oldPuterScore = parseInt(document.getElementById("puter-score").innerText);
   document.getElementById("puter-score").innerText = ++oldPuterScore;
 }
+
+
+/* reset game */
