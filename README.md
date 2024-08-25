@@ -88,6 +88,6 @@ I struggled to get the game to show the user choice, yet it would show the compu
 
 I was using the === operator for some of the checking the answer function, I needed to use the == operator. I think retrospectively my html uses too many classes and data-choice, data-type options, I could simplify this too, and it would help the js in future.
 
-When I tested the deployed game in a Firefox browser the border thickness of the buttons was hardly visible, using the dev tool on that browser I removed the ',' in between the css styling for the button borders and this made everything visible again. I rcorrects the css appropriately.
+When I tested the deployed game in a Firefox browser the border thickness of the buttons was hardly visible, using the dev tool on that browser I removed the ',' in between the css styling for the button borders and this made everything visible again. I corrected the css.
 
 
