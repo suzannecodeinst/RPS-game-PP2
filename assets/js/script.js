@@ -6,6 +6,7 @@ const userChoiceDisplay = document.getElementById('user-choice');
 const choices = ["rock", "paper", "scissors"];
 
 
+
 /*  play game function records data choice value of selected button and
 prints array data choice (rock, paper, scissors) to user choice*/
 
@@ -81,6 +82,3 @@ function incrementPuterScore() {
   let oldPuterScore = parseInt(document.getElementById("puter-score").innerText);
   document.getElementById("puter-score").innerText = ++oldPuterScore;
 }
-
-
-/* reset game */
