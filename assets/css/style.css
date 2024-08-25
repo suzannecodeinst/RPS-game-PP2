@@ -104,6 +104,10 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.result {
+    display :none;
+}
+
 .score-area {
     display: flex;
     justify-content: space-around;

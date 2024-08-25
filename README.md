@@ -53,7 +53,28 @@ I tested the game on Firefox and Chrome browsers.
 I checked that all game results correctly matched the rules.
 
 I checked accessibility with Lighthouse in Dev tools and checked its responsiveness to different screen sizes.
+
 ![Screengrab of Lighthouse test](/assets/images/readmeimg/Screenshot%202024-08-24%20at%2021.00.46.png)
+
+
+### Debugging
+Originally I wanted there to be two columns of the buttons, one for the user to select from and one for the computer to show their choice, I was struggling with the computer choice selection, so simplified the game play UI to just showing buttons for the User. This would be an additional feature that I would like to solve though.
+
+I struggled to get the game to show the user choice, yet it would show the computer choice. I kept re-checking the js, and went back to the beginning with a pseudo-code list, as I was unsure if I had the order of events and functions correct and understood. The problem actually lay in the html, I had an extra div that contained the buttons in the game-panel div, and it shared the class name of the buttons, once this was removed it was ok.
+
+I was using the === operator for some of the checking the answer function, I needed to use the == operator. I think retrospectively my html uses too many classes and data-choice, data-type options, I could simplify this too, and it would help the js in future.
+
+When I tested the deployed game in a Firefox browser the border thickness of the buttons was hardly visible, using the dev tool on that browser I removed the ',' in between the css styling for the button borders and this made everything visible again. I corrected the css.
+
+### Validator Testing
+
+#### HTML
+I tested the HTML with [W3](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsuzannecodeinst.github.io%2FRPS-game-PP2%2F) validator. This highlighted that a H2 element where I show the results was missing a heading. This is deliberate as the content is fille donly when game starts play.
+
+### CSS
+I tested the CSS with the [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsuzannecodeinst.github.io%2FRPS-game-PP2%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) validator and all was good.
+
+
 
 
 ## Reference
@@ -70,14 +91,21 @@ Referred to this article, to check and compare code for working with buttons and
 
 Referred to the Code Inst Project Scope [ReadMe Example](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/) as a reminder for the Readme structure, and in particular I followed the steps for testing.
 
+## Credits
 
-## Debugging
-Originally I wanted there to be two columns of the buttons, one for the user to select from and one for the computer to show their choice, I was struggling with the computer choice selection, so simplified the game play UI to just showing buttons for the User. This would be an additional feature that I would like to solve though.
+I created the favicon in illustrator and converted with [favicon](https://favicon.io/favicon-generator/).
 
-I struggled to get the game to show the user choice, yet it would show the computer choice. I kept re-checking the js, and went back to the beginning with a pseudo-code list, as I was unsure if I had the order of events and functions correct and understood. The problem actually lay in the html, I had an extra div that contained the buttons in the game-panel div, and it shared the class name of the buttons, once this was removed it was ok.
 
-I was using the === operator for some of the checking the answer function, I needed to use the == operator. I think retrospectively my html uses too many classes and data-choice, data-type options, I could simplify this too, and it would help the js in future.
+## Deployment
 
-When I tested the deployed game in a Firefox browser the border thickness of the buttons was hardly visible, using the dev tool on that browser I removed the ',' in between the css styling for the button borders and this made everything visible again. I corrected the css.
+The site is deployed to GitHub pages.
+
+The GitHub repository is [here](https://github.com/suzannecodeinst/RPS-game-PP2).
+
+you can click the deployed link below or find your way via the repository above by clicking on the deployments panel on the right side of the screen, and clicking the githib deployment link on the subsequent page.
+
+The deployed site is [here](https://suzannecodeinst.github.io/RPS-game-PP2/)
+
+
 
 
