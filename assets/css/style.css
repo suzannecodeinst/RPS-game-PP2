@@ -43,7 +43,7 @@ h2 {
     border-radius: 50%;
     height: 120px;
     width: 120px;
-    border: 12px, solid, #BEB8EB;
+    border: 12px solid #BEB8EB;
     margin: 3px;
     display: flex;
     justify-content: center;
