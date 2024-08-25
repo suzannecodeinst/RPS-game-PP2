@@ -22,8 +22,9 @@
 </head>
 
 <body>
-
-    <h1>Rock Paper Scissors</h1>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
 
     <div class="instructions">
         <p><b>Instructions:</b><br> Select an icon and the Computer will choose at the same time</p>
@@ -32,17 +33,16 @@
     <div class="game-area">
 
         <div class="game-panel">
-            
-                <button id="rock" aria-label="rock" data-choice="0" data-type="rock" class="btn-choice rock">
-                    <img class="button-icon" src="assets/images/rock.png" alt="rock">
-                </button>
-                <button id="paper" aria-label="paper" data-choice="1" class="btn-choice paper ">
-                    <img class="button-icon" src="assets/images/paper.png" alt="paper">
-                </button>
-                <button id="scissors" aria-label="scissors"  data-choice="2"
-                    class="btn-choice scissors ">
-                    <img class="button-icon" src="assets/images/scissors.png" alt="scissors">
-                </button>
+
+            <button id="rock" aria-label="rock" data-choice="0" data-type="rock" class="btn-choice rock">
+                <img class="button-icon" src="assets/images/rock.png" alt="rock">
+            </button>
+            <button id="paper" aria-label="paper" data-choice="1" class="btn-choice paper ">
+                <img class="button-icon" src="assets/images/paper.png" alt="paper">
+            </button>
+            <button id="scissors" aria-label="scissors" data-choice="2" class="btn-choice scissors ">
+                <img class="button-icon" src="assets/images/scissors.png" alt="scissors">
+            </button>
 
         </div>
 
@@ -62,7 +62,7 @@
         <h2>Result:<br> <span id="result-display"></span></h2>
     </div>
 
-   <!-- <div class="score-area">
+    <!-- <div class="score-area">
         <h2 id="user-score">0</h2>
         <h2 id="puter-score">0</h2>
     
@@ -70,7 +70,7 @@
 
     <div id="reset-area">
         <button data-type="reset-game" class="reset-btn">Reset Game</button>
-    </div> --> 
+    </div> -->
 
     <div class="rules">
         <p>Rock beats scissors. Paper beats Rock. Scissors beat paper.</p>
