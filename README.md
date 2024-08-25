@@ -57,6 +57,16 @@ I would like to add the option for a scoring system where you could also choose 
 A reset game button would also be useful in light of the above.
 
 
+## Testing
+I tested the game on Firefox and Chrome browsers.
+
+I checked that all game results correctly matched the rules.
+
+I checked accessibility with Lighthouse in Dev tools and checked its responsiveness to different screen sizes.
+![Screengrab of Lighthouse test](/assets/images/readmeimg/Screenshot%202024-08-24%20at%2021.00.46.png)
+
+
+
 
 
 
@@ -74,9 +84,7 @@ Referred to this [article](https://www.w3schools.com/js/js_if_else.asp) as a rem
 Referred to these articles, to check and compare code for working with buttons and their values;<br>
 [TutorialsPoint](https://www.tutorialspoint.com/how-to-find-the-value-of-a-button-with-javascript#:~:text=of%20value%20attribute.-,Step%201%20%E2%88%92%20In%20this%20step%2C%20we%20will%20define%20a%20button,attribute%20associated%20with%20particular%20value.&text=property%20of%20JavaScript_-,Step%203%20%E2%88%92%20In%20the%20third%20step%2C%20we%20will%20display%20the,code%20is%20working%20or%20not.)
 
-
-
-
+Referred to the Code Inst Project Scope [ReadMe Example](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+JSE_PAGPPF+2021_Q2/courseware/30137de05cd847d1a6b6d2c7338c4655/c3bd296fe9d643af86e76e830e1470dd/) as a reminder for the Readme structure, and in particular I followed the steps for testing.
 
 
 ## Debugging
@@ -85,5 +93,7 @@ Originally I wanted there to be two columns of the buttons, one for the user to 
 I struggled to get the game to show the user choice, yet it would show the computer choice. I kept re-checking the js, and went back to the beginning with a pseudo-code list, as I was unsure if I had the order of events and functions correct and understood. The problem actually lay in the html, I had an extra div that conatained the buttons in the game-panel div, and it shared the class name of the buttons, once this was removed it was ok.
 
 I was using the === operator for some of the checking the answer function, I needed to use the == operator. I think retrospectively my html uses too many classes and data-choice, data-type options, I could simplify this too, and it would help the js in future.
+
+When I tested the deployed game in a Firefox browser the border thickness of the buttons was hardly visible, using the dev tool on that browser I removed the ',' in between the css styling for the button borders and this made everything visible again. I rcorrects the css appropriately.
 
 
